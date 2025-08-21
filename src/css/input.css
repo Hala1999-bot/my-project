@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@import "flowbite/src/themes/default";
+@plugin "flowbite/plugin";
+@source "../../node_modules/flowbite";
+
+@theme {
+  --color-minColor: #583615;
+  --color-second: #f9fafb;
+}
+.btn {
+  @apply bg-minColor text-white border rounded-2xl px-5 py-2;
+}

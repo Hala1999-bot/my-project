@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<!-- <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
+    </style>
+    <link rel="stylesheet" href="css/output.css" />
+  </head>
+  <body class="font-[ Dancing Script, cursive ]">
+    <nav class="bg-second border-gray-200 dark:bg-gray-900">
+      <div
+        class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
+      >
+        <a
+          href="https://flowbite.com/"
+          class="flex items-center space-x-3 rtl:space-x-reverse"
+        >
+          <span
+            class="text-minColor self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
+            >Trendify</span
+          >
+        </a>
+        <button
+          data-collapse-toggle="navbar-default"
+          type="button"
+          class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+          aria-controls="navbar-default"
+          aria-expanded="false"
+        >
+          <span class="sr-only">Open main menu</span>
+          <svg
+            class="w-5 h-5"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 17 14"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M1 1h15M1 7h15M1 13h15"
+            />
+          </svg>
+        </button>
+        <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+          <ul
+            class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
+          >
+            <li>
+              <a
+                href="#home"
+                class="block py-2 px-3 text-white bg-main rounded-sm md:bg-transparent md:text-main md:p-0 dark:text-white md:dark:text-blue-500"
+                aria-current="page"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="block py-2 px-3 text-white bg-minColor rounded-sm md:bg-transparent md:text-minColor md:p-0 dark:text-white md:dark:text-minColor"
+                aria-current="page"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="block py-2 px-3 text-white bg-minColor rounded-sm md:bg-transparent md:text-minColor md:p-0 dark:text-white md:dark:text-minColor"
+                aria-current="page"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="block py-2 px-3 text-white bg-minColor rounded-sm md:bg-transparent md:text-minColor md:p-0 dark:text-white md:dark:text-minColor"
+                aria-current="page"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="block py-2 px-3 text-white bg-minColor rounded-sm md:bg-transparent md:text-minColor md:p-0 dark:text-white md:dark:text-minColor"
+                aria-current="page"
+                >Home</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header class="p-5 container">
+      <h1 class="text-4xl leading-16">
+        Elevate Your Home with <br />
+        Stylish Furniture
+      </h1>
+      <p class="w-1/2 my-8">
+        Explore a range of high-quality, affordable furniture designed to
+        transform any room. Discover the perfect blend of style, comfort, and
+        functionality for your space.
+      </p>
+      <button class="btn">Shop Now</button>
+    </header>
+
+    <script src="js/flowbite.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trendify</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&family=Dancing+Script:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      .font-pacifico {
+        font-family: "Pacifico", cursive;
+      }
+      .font-dancing {
+        font-family: "Dancing Script", cursive;
+      }
+    </style>
+  </head>
+  <body class="font-sans">
+    <!-- Navbar -->
+    <nav class="w-full bg-white shadow-sm fixed top-0 left-0 z-50">
+      <div
+        class="max-w-7xl mx-auto flex justify-between items-center px-6 py-3"
+      >
+        <!-- Logo -->
+        <h1 class="text-2xl font-pacifico text-yellow-800">Trendify</h1>
+
+        <!-- Links -->
+        <ul class="flex space-x-6 text-lg font-dancing">
+          <li>
+            <a href="#" class="text-yellow-800 hover:text-yellow-600">Home</a>
+          </li>
+          <li><a href="#" class="hover:text-yellow-600">Services</a></li>
+          <li><a href="#" class="hover:text-yellow-600">About us</a></li>
+          <li><a href="#" class="hover:text-yellow-600">Contact us</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section
+      class="relative bg-cover bg-center h-screen flex items-center"
+      style="
+        background-image: url('https://images.unsplash.com/photo-1519710164239-da123dc03ef4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80');
+      "
+    >
+      <!-- Overlay -->
+      <div class="absolute inset-0 bg-black/40"></div>
+
+      <!-- Content -->
+      <div class="relative max-w-2xl mx-auto px-6 text-white">
+        <h2 class="text-4xl md:text-5xl font-dancing mb-4 leading-snug">
+          Elevate Your Home with <br />
+          Stylish Furniture
+        </h2>
+        <p class="mb-6 text-lg font-dancing">
+          Explore a range of high-quality, affordable furniture designed to
+          transform any room. Discover the perfect blend of style, comfort, and
+          functionality for your space.
+        </p>
+        <a
+          href="#"
+          class="bg-yellow-800 hover:bg-yellow-700 text-white px-6 py-3 rounded-full font-dancing shadow-lg"
+        >
+          Shop Now
+        </a>
+      </div>
+    </section>
+    <!-- Services Section -->
+    <section id="services" class="bg-gray-50 py-16">
+      <div class="max-w-6xl mx-auto px-6 text-center">
+        <!-- Section Title -->
+        <h2 class="text-4xl font-pacifico text-yellow-800 mb-2">Services</h2>
+        <div class="w-20 h-1 bg-yellow-800 mx-auto mb-4"></div>
+        <p class="font-dancing text-lg text-gray-700 mb-12">
+          Benefits when using our services
+        </p>
+
+        <!-- Cards -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <!-- Card 1 -->
+          <div
+            class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition"
+          >
+            <div
+              class="flex items-center justify-center w-12 h-12 mx-auto bg-gray-100 rounded-full mb-4"
+            >
+              <span class="text-yellow-800 text-2xl">💡</span>
+            </div>
+            <h3 class="text-2xl font-dancing mb-3">Inspiration</h3>
+            <p class="text-gray-500 font-dancing">
+              Lorem ipsum dolor sit amet consectetur. Est vel risus hendrerit
+              laoreet purus malesuada dignissim.
+            </p>
+          </div>
+
+          <!-- Card 2 -->
+          <div
+            class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition"
+          >
+            <div
+              class="flex items-center justify-center w-12 h-12 mx-auto bg-gray-100 rounded-full mb-4"
+            >
+              <span class="text-yellow-800 text-2xl">🎧</span>
+            </div>
+            <h3 class="text-2xl font-dancing mb-3">24/7 Customer Services</h3>
+            <p class="text-gray-500 font-dancing">
+              Lorem ipsum dolor sit amet consectetur. Est vel risus hendrerit
+              laoreet purus malesuada dignissim.
+            </p>
+          </div>
+
+          <!-- Card 3 -->
+          <div
+            class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition"
+          >
+            <div
+              class="flex items-center justify-center w-12 h-12 mx-auto bg-gray-100 rounded-full mb-4"
+            >
+              <span class="text-yellow-800 text-2xl">🚚</span>
+            </div>
+            <h3 class="text-2xl font-dancing mb-3">Express Shipping</h3>
+            <p class="text-gray-500 font-dancing">
+              Lorem ipsum dolor sit amet consectetur. Est vel risus hendrerit
+              laoreet purus malesuada dignissim.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="bg-gray-50 py-16">
+      <div class="max-w-7xl mx-auto px-6 text-center">
+        <!-- Title -->
+        <h2 class="text-4xl font-pacifico text-yellow-800 mb-2">Products</h2>
+        <p class="font-dancing text-lg text-gray-700 mb-12">
+          Best Selling Product
+        </p>
+
+        <!-- Grid -->
+        <div
+          class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6"
+        >
+          <!-- Product Card -->
+          <div
+            class="bg-white rounded-md shadow-sm p-2 hover:shadow-lg transition"
+          >
+            <img
+              src="../images/item-1-min.png"
+              alt="Winter Beige Vibes"
+              class="rounded-md w-full h-64 object-cover mb-3"
+            />
+            <h3 class="font-dancing text-lg mb-1">Winter Beige Vibes</h3>
+            <div
+              class="flex items-center justify-center text-yellow-600 text-sm mb-1"
+            >
+              ⭐ <span class="ml-1 text-gray-600 text-xs">(4.8/500+)</span>
+            </div>
+            <p class="font-dancing text-gray-800">
+              <span class="font-bold">5000</span>
+              <span class="line-through text-gray-400 ml-2">10000 EGP</span>
+            </p>
+          </div>
+
+          <!-- Product Card -->
+          <div
+            class="bg-white rounded-md shadow-sm p-2 hover:shadow-lg transition"
+          >
+            <img
+              src="../images/item-2-min.png"
+              alt="Royal Classic Watch"
+              class="rounded-md w-full h-64 object-cover mb-3"
+            />
+            <h3 class="font-dancing text-lg mb-1">Royal Classic Watch</h3>
+            <div
+              class="flex items-center justify-center text-yellow-600 text-sm mb-1"
+            >
+              ⭐ <span class="ml-1 text-gray-600 text-xs">(4.8/500+)</span>
+            </div>
+            <p class="font-dancing text-gray-800">
+              <span class="font-bold">5000</span>
+              <span class="line-through text-gray-400 ml-2">10000 EGP</span>
+            </p>
+          </div>
+
+          <!-- Product Card -->
+          <div
+            class="bg-white rounded-md shadow-sm p-2 hover:shadow-lg transition"
+          >
+            <img
+              src="../images/item-4-min.png"
+              alt="Golden Shine Set"
+              class="rounded-md w-full h-64 object-cover mb-3"
+            />
+            <h3 class="font-dancing text-lg mb-1">Golden Shine Set</h3>
+            <div
+              class="flex items-center justify-center text-yellow-600 text-sm mb-1"
+            >
+              ⭐ <span class="ml-1 text-gray-600 text-xs">(4.8/500+)</span>
+            </div>
+            <p class="font-dancing text-gray-800">
+              <span class="font-bold">5000</span>
+              <span class="line-through text-gray-400 ml-2">10000 EGP</span>
+            </p>
+          </div>
+
+          <!-- Product Card -->
+          <div
+            class="bg-white rounded-md shadow-sm p-2 hover:shadow-lg transition"
+          >
+            <img
+              src="../images/item-3-min.png"
+              alt="Autumn Flow Skirt"
+              class="rounded-md w-full h-64 object-cover mb-3"
+            />
+            <h3 class="font-dancing text-lg mb-1">Autumn Flow Skirt</h3>
+            <div
+              class="flex items-center justify-center text-yellow-600 text-sm mb-1"
+            >
+              ⭐ <span class="ml-1 text-gray-600 text-xs">(4.8/500+)</span>
+            </div>
+            <p class="font-dancing text-gray-800">
+              <span class="font-bold">5000</span>
+              <span class="line-through text-gray-400 ml-2">10000 EGP</span>
+            </p>
+          </div>
+          <!-- Product Card -->
+          <div
+            class="bg-white rounded-md shadow-sm p-2 hover:shadow-lg transition"
+          >
+            <img
+              src="../images/item-5-min.png"
+              alt="Soft Neutrals Tee Pack
+"
+              class="rounded-md w-full h-64 object-cover mb-3"
+            />
+            <h3 class="font-dancing text-lg mb-1">Soft Neutrals Tee Pack</h3>
+            <div
+              class="flex items-center justify-center text-yellow-600 text-sm mb-1"
+            >
+              ⭐ <span class="ml-1 text-gray-600 text-xs">(4.8/500+)</span>
+            </div>
+            <p class="font-dancing text-gray-800">
+              <span class="font-bold">5000</span>
+              <span class="line-through text-gray-400 ml-2">10000 EGP</span>
+            </p>
+          </div>
+          <!-- Product Card -->
+          <div
+            class="bg-white rounded-md shadow-sm p-2 hover:shadow-lg transition"
+          >
+            <img
+              src="../images/item-6-min.png"
+              alt="Sky Blue Minimal Clutch"
+              class="rounded-md w-full h-64 object-cover mb-3"
+            />
+            <h3 class="font-dancing text-lg mb-1">Sky Blue Minimal Clutch</h3>
+            <div
+              class="flex items-center justify-center text-yellow-600 text-sm mb-1"
+            >
+              ⭐ <span class="ml-1 text-gray-600 text-xs">(4.8/500+)</span>
+            </div>
+            <p class="font-dancing text-gray-800">
+              <span class="font-bold">5000</span>
+              <span class="line-through text-gray-400 ml-2">10000 EGP</span>
+            </p>
+          </div>
+          <!-- Product Card -->
+          <div
+            class="bg-white rounded-md shadow-sm p-2 hover:shadow-lg transition"
+          >
+            <img
+              src="../images/item-7-min.png"
+              alt="Royal Classic Watch"
+              class="rounded-md w-full h-64 object-cover mb-3"
+            />
+            <h3 class="font-dancing text-lg mb-1">Cozy Knit Layers</h3>
+            <div
+              class="flex items-center justify-center text-yellow-600 text-sm mb-1"
+            >
+              ⭐ <span class="ml-1 text-gray-600 text-xs">(4.8/500+)</span>
+            </div>
+            <p class="font-dancing text-gray-800">
+              <span class="font-bold">5000</span>
+              <span class="line-through text-gray-400 ml-2">10000 EGP</span>
+            </p>
+          </div>
+          <!-- Product Card -->
+          <div
+            class="bg-white rounded-md shadow-sm p-2 hover:shadow-lg transition"
+          >
+            <img
+              src="../images/item-8-min.png"
+              alt="clothes"
+              class="rounded-md w-full h-64 object-cover mb-3"
+            />
+            <h3 class="font-dancing text-lg mb-1">Earth Tones Folded Set</h3>
+            <div
+              class="flex items-center justify-center text-yellow-600 text-sm mb-1"
+            >
+              ⭐ <span class="ml-1 text-gray-600 text-xs">(4.8/500+)</span>
+            </div>
+            <p class="font-dancing text-gray-800">
+              <span class="font-bold">5000</span>
+              <span class="line-through text-gray-400 ml-2">10000 EGP</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="bg-gray-50 py-16">
+      <div class="max-w-6xl mx-auto px-6 text-center">
+        <!-- Title -->
+        <h2 class="text-3xl md:text-4xl font-dancing text-gray-800 mb-2">
+          A few words about us
+        </h2>
+        <p class="font-dancing text-lg text-gray-600 mb-12">
+          Make your best moments more stylish with our latest designs of
+          clothing
+        </p>
+
+        <!-- Content Grid -->
+        <div class="grid md:grid-cols-2 gap-10 items-center mb-12">
+          <img
+            src="../images/about-1-min.png"
+            alt="about us"
+            class="rounded-lg shadow-md mx-auto"
+          />
+          <div class="text-left">
+            <h3 class="font-dancing text-2xl text-yellow-800 mb-3">
+              Why choose us ?
+            </h3>
+            <p class="text-gray-600 font-dancing">
+              Maecenas congue metus id turpis iaculis mattis. Sed pellentesque
+              id arcu id scelerisque. Ut ullamcorper rutrum justo, at blandit
+              eros maximus ut. Integer non tincidunt justo, rhoncus Aenean
+              venenatis sed purus ac sollicitudin. Nulla mauris risus, commodo
+              et luctus rutrum, lobortis sed mauris. Integer congue, sem
+              elementum varius tristique.
+            </p>
+          </div>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-10 items-center">
+          <div class="text-left md:text-right">
+            <h3 class="font-dancing text-2xl text-yellow-800 mb-3">
+              Trusted Online Shopping
+            </h3>
+            <p class="text-gray-600 font-dancing">
+              Maecenas congue metus id turpis iaculis mattis. Sed pellentesque
+              id arcu id scelerisque. Ut ullamcorper rutrum justo, at blandit
+              eros maximus ut. Integer non tincidunt justo, rhoncus Aenean
+              venenatis sed purus ac sollicitudin. Nulla mauris risus, commodo
+              et luctus rutrum, lobortis sed mauris. Integer congue, sem
+              elementum varius tristique.
+            </p>
+          </div>
+          <img
+            src="../images/about-2-min.png"
+            alt="online shopping"
+            class="rounded-lg shadow-md mx-auto"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-white py-16">
+      <div class="max-w-4xl mx-auto px-6">
+        <!-- Title -->
+        <h2
+          class="text-4xl relative font-dancing text-gray-800 mb-2 after:absolute after:top-10 after:start-0 after:bg-blue-950 after:w-10 after:h-1"
+        >
+          Contact Me
+        </h2>
+        <p class="font-dancing text-gray-600 mb-8">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor
+        </p>
+
+        <!-- Form -->
+
+        <form class="font-dancing">
+          <div class="grid gap-6 mb-6 md:grid-cols-2">
+            <div>
+              <label
+                for="first_name"
+                class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+                >First name</label
+              >
+              <input
+                type="text"
+                id="first_name"
+                class="bg-gray-50 border border-yellow-800 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                required
+              />
+            </div>
+            <div>
+              <label
+                for="last_name"
+                class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+                >Last name</label
+              >
+              <input
+                type="text"
+                id="last_name"
+                class="bg-gray-50 border border-yellow-800 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                required
+              />
+            </div>
+            <div>
+              <label
+                for="Email"
+                class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+                >Email</label
+              >
+              <input
+                type="email"
+                id="Email"
+                class="bg-gray-50 border border-yellow-800 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                required
+              />
+            </div>
+            <div>
+              <label
+                for="phone"
+                class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+                >Phone number</label
+              >
+              <input
+                type="tel"
+                id="phone"
+                class="bg-gray-50 border border-yellow-800 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+                required
+              />
+            </div>
+          </div>
+
+          <label
+            for="topics"
+            class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+            >Choose a Topic</label
+          >
+          <select
+            id="topics"
+            class="bg-gray-50 border border-yellow-800 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+          >
+            <option selected>Choose a Topic</option>
+            <option value="US">html</option>
+            <option value="CA">Css</option>
+            <option value="FR">JS</option>
+            <option value="DE">bootstrap</option>
+          </select>
+
+          <label
+            for="message"
+            class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+            >Your message</label
+          >
+          <textarea
+            id="message"
+            rows="4"
+            class="block p-2.5 w-full text-sm text-yello-900 bg-gray-50 rounded-lg border border-yellow-800 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+            placeholder="Write your thoughts here..."
+          ></textarea>
+
+          <button
+            type="submit"
+            class="bg-yellow-800 text-white px-4 m-3 py-2 rounded-md hover:bg-yellow-700 transition md:col-span-2 w-32"
+          >
+            Submit
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="bg-gray-900 text-gray-200 py-10">
+      <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-8">
+        <!-- Logo and Newsletter -->
+        <div>
+          <h2 class="text-3xl font-bold font-['Sacramento'] text-white">
+            Trendify
+          </h2>
+          <p class="mt-2 text-sm">
+            Join our newsletter to stay up to date on features and releases.
+          </p>
+          <p class="mt-3 text-sm">
+            By subscribing you agree to with our Privacy Policy and provide
+            consent to receive updates from our company.
+          </p>
+        </div>
+
+        <!-- About Us -->
+        <div>
+          <h3
+            class="text-2xl font-semibold font-['Sacramento'] text-white mb-3"
+          >
+            About Us
+          </h3>
+          <ul class="space-y-2 text-sm">
+            <li><a href="#" class="hover:underline">FAQ</a></li>
+            <li><a href="#" class="hover:underline">Contact</a></li>
+            <li><a href="#" class="hover:underline">Returns</a></li>
+            <li><a href="#" class="hover:underline">Blog</a></li>
+            <li><a href="#" class="hover:underline">Shipping</a></li>
+          </ul>
+        </div>
+
+        <!-- Customer -->
+        <div>
+          <h3
+            class="text-2xl font-semibold font-['Sacramento'] text-white mb-3"
+          >
+            Customer
+          </h3>
+          <ul class="space-y-2 text-sm">
+            <li><a href="#" class="hover:underline">Affiliates</a></li>
+            <li><a href="#" class="hover:underline">Apple Pay Payments</a></li>
+            <li><a href="#" class="hover:underline">Returns</a></li>
+            <li><a href="#" class="hover:underline">Returns Policy</a></li>
+            <li><a href="#" class="hover:underline">Returns</a></li>
+          </ul>
+        </div>
+
+        <!-- Follow Us -->
+        <div>
+          <h3
+            class="text-2xl font-semibold font-['Sacramento'] text-white mb-3"
+          >
+            Follow Us
+          </h3>
+          <ul class="space-y-2 text-sm">
+            <li><a href="#" class="hover:underline">Facebook</a></li>
+            <li><a href="#" class="hover:underline">Instagram</a></li>
+            <li><a href="#" class="hover:underline">Twitter</a></li>
+            <li><a href="#" class="hover:underline">LinkedIn</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Bottom -->
+      <div class="text-center mt-10 text-xs text-gray-400">
+        © 2025 Trendify. All rights reserved.
+      </div>
+    </footer>
+  </body>
+</html>
